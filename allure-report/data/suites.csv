@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","8247","should display error message for locked_out_user","","Tue Feb 04 20:37:19 CST 2025","passed","Tue Feb 04 20:37:27 CST 2025","","SauceDemo Login Test","",""
+"","22096","should perform the full purchase journey, reset app state, and logout","","Tue Feb 04 20:58:17 CST 2025","passed","Tue Feb 04 20:58:39 CST 2025","","SauceDemo End-to-End Test","",""
+"","58415","should perform full purchase journey with performance_glitch_user","","Tue Feb 04 16:19:51 CST 2025","passed","Tue Feb 04 16:20:50 CST 2025","","SauceDemo Performance Glitch User Test","",""

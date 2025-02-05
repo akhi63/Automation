@@ -1,0 +1,26 @@
+{
+  "name": "webdriverio_framework",
+  "version": "1.0.0",
+  "description": "webdriverio pom framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio run ./wdio.conf.js",
+    "getReport": "allure generate allure-results --clean && allure open"
+  },
+  "keywords": [
+    "webdriverio",
+    "page-object-model"
+  ],
+  "author": "akhi_akter",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^9.6.3",
+    "@wdio/cli": "^9.7.2",
+    "@wdio/local-runner": "^9.7.2",
+    "@wdio/mocha-framework": "^9.7.2",
+    "@wdio/spec-reporter": "^9.6.3"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.32.2"
+  }
+}
