@@ -4,10 +4,7 @@ website using WebdriverIO and Mocha.  The tests cover the full purchase journey,
 including login, adding items to the cart, checkout, and logout.
 
 ## Project Overview
-The tests are designed to ensure the core functionality of the SauceDemo website is working 
-as expected.  They simulate a user interacting with the site, performing actions like adding 
-products to the cart, going through the checkout process, and verifying order confirmation. 
-The tests also include resetting the application state and logging out.
+The tests are made to check if the main parts of the SauceDemo website are working as they expected. They act like a person using the site, doing things like adding items to the cart, going through the checkout steps, and checking if the order is correct. The tests also include resetting the website and logging out.
 
 ## Technologies Used
 
@@ -36,14 +33,16 @@ The tests also include resetting the application state and logging out.
 1.**Running Test Scenarios:**
 
   * Run altogether in a sequential way:
-  specs: [
+
+    specs: [
     './test/specs/loginTest.js',
     './test/specs/sauceDemoTest.js',
     './test/specs/performanceGlitchUserTest.js'
 ],
 
   * run separately by commenting in `wdio.conf.js`:
-     specs: [
+
+    specs: [
     './test/specs/loginTest.js',
    // './test/specs/sauceDemoTest.js',
    // './test/specs/performanceGlitchUserTest.js'
@@ -55,7 +54,7 @@ The tests also include resetting the application state and logging out.
 
 3.**Generate the Allure report:**
 
-   * npm run getReport
+    * npm run getReport
    
 ## Test Structure
 
