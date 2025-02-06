@@ -23,13 +23,13 @@ The tests also include resetting the application state and logging out.
     cd your-project-directory
 
 **Install dependencies:**
-   npm install
-   npm i --save-dev @wdio/cli
-   npx wdio config 
+   * npm install
+   * npm i --save-dev @wdio/cli
+  *  npx wdio config 
 
 **Install Allure CLI:**
 
-   npm install -g @allure-cli/allure-cli
+   * npm install -g @allure-cli/allure-cli
 
 # # Running the Tests
 
@@ -51,11 +51,11 @@ The tests also include resetting the application state and logging out.
 
 2.**Run the WebdriverIO tests:**
 
-    npx wdio run wdio.conf.js
+    * npx wdio run wdio.conf.js
 
 3.**Generate the Allure report:**
 
-   npm run getReport
+   * npm run getReport
    
 ## Test Structure
 
