@@ -1,10 +1,10 @@
 # SauceDemo End-to-End Tests
 This project contains end-to-end (E2E) tests for the SauceDemo 
-website using WebdriverIO and Mocha.  The tests cover the full purchase journey, 
+website using WebdriverIO and Mocha. The tests cover the full purchase journey, 
 including login, adding items to the cart, checkout, and logout.
 
 ## Project Overview
-The tests are made to check if the main parts of the SauceDemo website are working as they expected. They act like a person using the site, doing things like adding items to the cart, going through the checkout steps, and checking if the order is correct. The tests also include resetting the website and logging out.
+The tests are made to check if the main parts of the SauceDemo website are working as expected. They act like a person using the site, doing things like adding items to the cart, going through the checkout steps, and checking if the order is correct. The tests also include resetting the website and logging out.
 
 ## Technologies Used
 
@@ -55,20 +55,21 @@ The tests are made to check if the main parts of the SauceDemo website are worki
 
     * npm run getReport
    
-## Test Structure
-
-The tests are organized into several spec files, each focusing on a specific part of the application:
-
-* `loginTest.js`: Tests the login functionality.
-* `sauceDemoTest.js`: Contains the main end-to-end purchase journey test.
-* `performanceGlitchUserTest.js`: Tests the purchase journey with a performance glitch user.
-
-## Page Objects
+## Setting Page Objects
 
 * `LoginPage`: Handles interactions with the login page.
 * `InventoryPage`: Handles interactions with the inventory page.
 * `CartPage`: Handles interactions with the shopping cart page.
 * `CheckoutOverviewPage`: Handles interactions with the checkout overview page.
 * `CheckoutCompletePage`: Handles interactions with the order confirmation page.
+
+## Test Structure
+The tests are organized into several spec files, each focusing on a specific part of the application:
+
+* `loginTest.js`: Tests the login functionality.
+* `sauceDemoTest.js`: Contains the main end-to-end purchase journey test.
+* `performanceGlitchUserTest.js`: Tests the purchase journey with a performance glitch user.
+
+
 
 
