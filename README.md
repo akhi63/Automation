@@ -16,7 +16,7 @@ The tests are made to check if the main parts of the SauceDemo website are worki
 ## Setup and Installation
 
  **Clone the repository:**
-    git clone https://github.com/akhi63/Automation.git 
+    git clone https:https://github.com/akhi63/Automation.git
     
 **Install dependencies:**
    * npm install
